@@ -5,33 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/grid.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
-    <title>Responsive Scaffolding</title>
+    <title>Swerve - Changing in a New Direction!</title>
 </head>
 <body>
-    <h1 class="hidden">Responsive Scaffolding</h1>
+    <h1 class="visually-hidden">Swerve - Changing in a New Direction!</h1>
         <header class="grid-con center-grid-con">
-            <div class="box col-start-2 col-end-4 m-col-start-1 m-col-end-3 l-col-start-1 l-col-end-3">Logo</div>
-            <nav class="box col-span-full m-col-start-4 m-col-end-13 l-col-end-4 l-col-end-13">Nav</nav>
+            <nav class="col-span-full m-col-start-6 m-col-end-12">
+                <div id="burger">
+                    <img src="images/burger-menu-right-svgrepo-com.svg" alt="Burger Menu">
+                </div>
+                <ul id="burger-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Flavours</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="col-start-2 col-end-4 m-col-start-1 m-col-end-4">
+                <img src="images/swervelogo-(lemon).png" alt="Swerve Logo">
+            </div>
         </header>
 
         <main>
             <section id="hero" class="grid-con center-grid-con">
-                <h2 class="hidden">Hero Section</h2>
-                <div class="box col-start-1 col-end-4 m-col-start-1 m-col-end-7">Hero Image</div>
+                <img class="col-span-full" src="images/Swerve_Can_Watermelon.jpg" alt="Watermelon flavoured Can">
+                <h2 class="col-span-full">Take a Turn for the Better.</h2>
+                <a href="#" class="col-start-3 col-end-5 m-col-start-11 m-col-end-13">Buy Now</a>
+            </section>
 
-                <div class="box span-1 m-col-start-7 m-col-end-13">Hero Text</div>
+            <section id="products" class="grid-con center-grid-con">
+                <h2 class="visually-hidden">Swerve Flavours</h2>
+                <div class="flavour berry-breeze col-start-1 col-end-3 m-col-start-1 m-col-end-5 l-col-start-1 l-col-end-5">
+                        <img src="images/swerve-bluberries-can.jpg" alt="Bluberry Flavour Can">
+                </div>
+
+                <div class="flavour berry-breeze col-start-3 col-end-5 m-col-start-6 m-col-end-12 l-col-start-5 l-col-end-9">
+                    <h3 class="col-start-3 col-end-5 m-col-start-6 m-col-end-12
+                    l-col-start-5 l-col-end-9">Berry Breeze</h3>
+                    <p>A burst of bold blueberry meets a crisp, sparkling finish in this refreshing cocktail crafted for easy sipping. Each can blends juicy berry sweetness with a clean, cool edge, creating a drink that’s vibrant without being overpowering. Lightly effervescent and perfectly balanced, it’s the kind of flavour that lingers just long enough to make you reach for the next sip. Chill it, crack it, and let the bright blueberry twist elevate your moment.</p>
+                </div>
+
+
+                <div class="flavour sunset-citrus col-start-1 col-end-3
+                     m-col-start-2 m-col-end-8 l-col-start-1 l-col-end-5">
+                    <h3 class="flavour .sunset-citrus col-start-1 col-end-3
+                     m-col-start-2 m-col-end-8 l-col-start-1 l-col-end-5">Sunset Citrus</h3>
+                    <p>A sharp splash of citrus cuts through with bright, sun‑lit energy in this crisp, sparkling cocktail. Zesty lemon and orange notes mingle with a smooth, refreshing finish, creating a flavour that’s lively without tipping into sour. Light, vibrant, and effortlessly drinkable, it’s the kind of citrus hit that wakes up your senses and keeps the moment feeling fresh. Serve chilled and let that clean, citrus snap do the rest.</p>
+                </div>
+
+                <div class="flavour sunset-citrus col-start-3 col-end-5 m-col-start-9 m-col-end-13
+                    l-col-start-5 l-col-end-9">
+                        <img src="images/swerve-citrus-can.jpg" alt="Citrus Flavour Can">
+                </div>
 
             </section>
 
-            <section id="contents" class="grid-con center-grid-con">
-                <h2 class="hidden">Contents Section</h2>
+            <section id="promo-edition" class="center-grid-con grid-con">
+                <h2 class="visually-hidden">Promo Edition Section</h2>
+                <div class="col-start-1 col-end-5 m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
+                    <h2 class="sub-header">
+                    Pride Edition</h2>
+                    <img src="images/Swerve_Can_Pride.jpg" alt="Swerve Pride Can Edition">
+                </div>
+
+                <div class="col-start-1 col-end-5 m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
+                    <h2 class="sub-header"
+                    >Zero Sugar</h2>
+                    <img src="images/Swerve_Can_Zero.jpg" alt="Swerve Zero Can Edition">
+                </div>
+
+            </section>
+
+
+
+            <!-- <section id="contents" class="grid-con center-grid-con">
+                <h2 class="visually-hidden">Contents Section</h2>
                 <div class="box col-span-full m-col-start-1 m-col-end-7">Product 1</div>
 
-                <div class="box col-span-full m-col-start-7 m-col-end-13">Product 2</div>
+                <div class="box col-span-full m-col-start-7 m-col-end-13">Product 2</div>  -->
 
-                <div class="box col-start-1 col-end-3 m-col-start-1 m-col-end-5 l-col-start-1 l-col-end-5">Service 1</div>
+                <!-- <div class="col-start-1 col-end-3 m-col-start-1 m-col-end-5 l-col-start-1 l-col-end-5">
+                    <img src="images/swerve-bluberries-can.jpg" alt="Blueberry-Flavour Can">
+                </div>
 
-                <div class="box col-start-3 col-end-5 m-col-start-5 m-col-end-9 l-col-start-5 l-col-end-9">Service 2</div>
+                <div class="col-start-3 col-end-5 m-col-start-5 m-col-end-9 l-col-start-5 l-col-end-9">
+                    <p>A burst of bold blueberry meets a crisp, sparkling finish in this refreshing cocktail crafted for easy sipping. Each can blends juicy berry sweetness with a clean, cool edge, creating a drink that’s vibrant without being overpowering. 
+
+  Lightly effervescent and perfectly balanced, it’s the kind of flavour that lingers just long enough to make you reach for the next sip. Chill it, crack it, and let the bright blueberry twist elevate your moment. 
+                </div>
 
                 <div class="box col-start-1 col-end-3 m-col-start-9 m-col-end-13 l-col-start-9 l-col-end-13">Service 3</div>
 
@@ -43,13 +106,14 @@
 
                 <div id="hidden-box" class="box hidden col-span-full">Hidden Box</div>
 
-                <div class="box col-start-1 col-end-5 m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">Promo Video</div>
-            </section>
+                <div class="box col-start-1 col-end-5 m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">Promo Video</div> 
+            </section> -->
         </main>
 
         <footer id="footer" class="grid-con center-grid-con">
             <div class="box col-span-full">Footer</div>
         </footer>
+
         <script src="js/main.js"></script>
 </body>
 </html>
