@@ -1,10 +1,3 @@
-#mobile-outline {
-   outline: 20px solid #333;
-   max-width: 412px;
-   margin: 20px auto 20px auto;
-   border-radius: 10px;
-} 
-
 @media screen and (min-width: 1200px) {
    #hidden-box {
       display: block;
@@ -20,7 +13,7 @@
 }
 
 #footer div {
-    padding: 60px;
+    padding: 30x;
 } 
 
 /* 
@@ -41,6 +34,12 @@ body {
 
 nav {
     margin-top: 34px;
+}
+
+nav ul li:hover {
+    font-size: 20px;
+    font-weight: bold;
+    transition: .3s ease-in-out;
 }
 
 #burger {
@@ -107,9 +106,9 @@ nav {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 2rem;
+    /* gap: 2rem; */
     margin-bottom: 15px;
-    padding-bottom: 57px;
+    padding-bottom: 30px;
 }
 
 .flavour img {
@@ -143,5 +142,98 @@ nav {
     #hero {
     height: 620px;
     }
-
 }
+
+
+/* About Us Section */
+.about-swerve {
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border-bottom: 4px solid #f92b6c;
+}
+
+#about-us h2 {
+    padding-bottom: 20px;
+}
+
+#about-us {
+    text-align: center;
+}
+
+#about-us p {
+    padding: 20px;
+}
+
+#know-more-btn button {
+    padding: 20px;
+    margin: 20px;
+    border: solid 4px #ff8250;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#know-more-btn button:hover {
+    color: white;
+    background-color: #8a00d4b0;
+    border: solid 4px #f92b6c;
+    border-radius: 30px;
+    transition: .6s ease-in-out;
+}
+
+#patron-prof div {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.beloved-patrons {
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border-bottom: 4px solid #fdfa66;
+}
+
+#patron-prof h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#footer nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    justify-items: left;
+}
+
+#footer nav ul li {
+    padding-bottom: 15px;
+}
+
+#footer nav ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+#footer nav ul li a:hover {
+    text-decoration: none;
+    color: #ff8250;
+    font-size: 20px;
+    transition: .3s ease-in-out;
+    font-weight: bold;
+}
+
+/* .footer-inner { 
+    display: contents; 
+} 
+
+.footer-right {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-end;
+    gap: 20px;
+} 
+    
+.footer-logo { 
+    width: 120px; 
+} */
